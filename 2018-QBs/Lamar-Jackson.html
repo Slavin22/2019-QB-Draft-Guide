@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Lamar Jackson</title>
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+
+	<script type="text/javascript">
+
+		function random() {
+			var urls = new Array();
+
+			urls[0] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Sam-Darnold";
+			urls[1] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Baker-Mayfield";
+			urls[2] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Lamar-Jackson";
+			urls[3] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Josh-Rosen";
+			urls[4] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Josh-Allen";
+			urls[5] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Mason-Rudolph";
+			urls[6] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Kyle-Lauletta";
+			urls[7] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Logan-Woodside";
+			urls[8] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Mike-White";
+			urls[9] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Riley-Ferguson";
+			urls[10] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Tanner-Lee";
+			urls[11] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Luke-Falk";
+			urls[12] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Chase-Litton";
+			urls[13] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Kurt-Benkert";
+			urls[14] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/JT-Barrett";
+			urls[15] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Nic-Shimonek";
+			urls[16] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Quinton-Flowers";
+			urls[17] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Danny-Etling";
+			urls[18] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/John-Wolford";
+			urls[19] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Nick-Stevens";
+			urls[20] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Jeremiah-Briscoe";
+			urls[21] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Kyle-Allen";
+			urls[22] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Austin-Allen";
+			urls[23] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Dalton-Sturm";
+			urls[24] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Brandon-Silvers";
+			urls[25] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Alex-McGough";
+			urls[26] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Kenny-Hill";
+			urls[27] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Richard-Lagow";
+			urls[28] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Anu-Solomon";
+			urls[29] = "https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/Matt-Linehan";
+
+			var random = Math.floor(Math.random()*urls.length);
+
+			window.location = urls[random];
+		}
+	</script>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	<div class="jumbotron jumbotron-fluid jumbotron-center Home" id="jumbo">
+		<div class="container">
+			<h1><a href="https://slavin22.github.io/2019-QB-Draft-Guide/Home.html">2019 QB Draft Guide</a></h1>
+		</div>
+
+		<ul class="nav">
+			<li><a href="https://slavin22.github.io/2019-QB-Draft-Guide/Home.html">Home</a></li>
+			<li><a href="https://slavin22.github.io/2019-QB-Draft-Guide/Methodology.html">Methodology</a></li>
+			<li><a href="javascript:;" onclick="random();">Random QB</a></li>
+		</ul>
+	</div>
+
+	<div class="container">
+		
+		<div class="row space">
+			<div class="jumbotron jumbotron-fluid jumbotron-center Jackson" id="jumbo2">
+				<div class="row">
+					<div class="col-sm-12"><h1>Lamar Jackson</h1></div>
+					<div class="col-sm-12"><img src="https://sportshub.cbsistatic.com/i/r/2018/02/27/350d6620-0ca5-4d6f-a2d3-3889afc19833/thumbnail/1200x675/63b6376fa86b2f84babe4648340ef246/lamar-jackson.jpg" alt="JacksonPic" width = "100%"></div>
+
+				</div>
+			</div>
+
+				<table id="bio" class="Jackson">
+					<tr>
+						<th>School</th>
+						<th>Rookie Age</th>
+						<th>Height</th>
+						<th>TANY/A*</th>
+						<th>Breakout Age</th>
+						<th>Mobility</th>
+					</tr>
+					
+					<tr>
+						<td id="bottomleft">Louisville</td>
+						<td>21.7</td>
+						<td>6'2"</td>
+						<td>8.12 (Great)</td>
+						<td>18.7 (Elite)</td>
+						<td id="bottomright">35.8% (Elite)</td>
+					</tr>
+				</table>
+		</div>
+
+
+		<div class="row">
+			<div class="panel-group">
+				<div class="panel">
+					<div class="panel-heading Jackson">TANY/A* by Age compared to: All QBs drafted | First Round QBs | Day 2 QBs | Day 3 QBs</div>
+					
+					<div class="panel-body">
+						<div>
+							<div class="col-sm-6"><img src="Images/JacksonAll.png" alt="JacksonAll" width = "100%" class="img_space"></div>
+							<div class="col-sm-6"><img src="Images/JacksonFirst.png" alt="JacksonFirst" width = "100%" class="img_space"></div>
+						</div>
+							<div class="col-sm-6"><img src="Images/JacksonDay2.png" alt="JacksonDay2" width = "100%" class="img_space"></div>
+							<div class="col-sm-6"><img src="Images/JacksonDay3.png" alt="JacksonDay3" width = "100%" class="img_space"></div>
+						<div class="row">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="panel-group">
+				<div class="panel">
+					<div class="panel-heading Jackson">My Take</div>
+					
+					<div class="panel-body take">
+						<p>There's no shortage of polarizing prospects in the 2018 QB class, and Lamar Jackson is up there in that regard. While some scouts are down on his mechanics, his statistical profile is elite. Jackson is one of just nine QBs since 2000 to have a breakout season at the age of 18. He only got better after that, something only he and Marcus Mariota can claim from that group of young breakouts. He has elite athleticism as well, as he ran for more yards and TDs than Saquon Barkley did. The concern there is that QBs run the ball a lot less in the NFL than college. Rushing ability becomes more of a bonus, but the ability to escape pressure is still important. On top of that, Jackson's arm is actually a plus as well. His schedule/era-adjusted AY/A* for his career was 8.36. QBs taken in the back end of the first round since 2001 have had an average AY/A* of 8.37. So by this metric, Jackson's arm is worth a pick between 17 and 32. Add in his elite legs and I think top-12 in the draft is his floor. For both NFL and dynasty, Jackson is firmly in my top tier of 2018 QBs with Sam Darnold and Baker Mayfield. And if he lands a starting spot in 2018, he will be my top rookie QB from a redraft perspective.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="panel-group">
+				<div class="panel">
+					<div class="panel-heading Jackson">Likely Landing Spots</div>
+					
+					<div class="panel-body spots">
+						<p>Bills, Cardinals, Dolphins, Patriots</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row">
+			<div class="panel-group">
+				<div class="panel">
+					<div class="panel-heading Home">Created by <a href="https://twitter.com/Slavin22">Sean Slavin</a> of <a href="https://twoqbs.com/">TwoQBs</a>, all stats courtesy of <a href="https://www.sports-reference.com/cfb/">Sports Reference</a>.</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+
+</body>
+</html>

@@ -856,8 +856,8 @@ ul {
 }
 
 .Hurts {
-	background-color: #9E1B32;
-	color: #F0F0F0;
+	background-color: #841617;
+	color: #FDF9D8;
 	border-radius: 5px;
 	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
 	font-weight: bold;
@@ -1065,3 +1065,112 @@ ul {
 	vertical-align: middle;
 }
 
+.Purdy {
+	background-color: #C8102E;
+	color: #F1BE48;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.Martell {
+	background-color: #F47321;
+	color: #005030;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.Daniels {
+	background-color: #990000;
+	color: #FFC72C;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.Mond {
+	background-color: #500000;
+	color: #F0F0F0;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.Cornelius {
+	background-color: #0F0F0F;
+	color: #FF7300;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.Blough {
+	background-color: #CEB888;
+	color: #0F0F0F;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.Speight {
+	background-color: #2D68C4;
+	color: #F2A900;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.Buechele {
+	background-color: #BF5700;
+	color: #333F48;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.Barnett {
+	background-color: #005941;
+	color: #CDB77C;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.Wimbush {
+	background-color: #BA9B37;
+	color: #0F0F0F;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.White {
+	background-color: #0C1C8C;
+	color: #F69F14;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	}

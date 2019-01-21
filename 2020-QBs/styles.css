@@ -1076,8 +1076,8 @@ ul {
 	}
 
 .Martell {
-	background-color: #F47321;
-	color: #005030;
+	background-color: #005030;
+	color: #F47321;
 	border-radius: 5px;
 	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
 	font-weight: bold;
@@ -1116,8 +1116,8 @@ ul {
 	}
 
 .Blough {
-	background-color: #CEB888;
-	color: #0F0F0F;
+	background-color: #0F0F0F;
+	color: #CEB888;
 	border-radius: 5px;
 	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
 	font-weight: bold;
@@ -1137,7 +1137,7 @@ ul {
 
 .Buechele {
 	background-color: #BF5700;
-	color: #333F48;
+	color: #F0F0F0;
 	border-radius: 5px;
 	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
 	font-weight: bold;
@@ -1165,7 +1165,7 @@ ul {
 	vertical-align: middle;
 	}
 
-.White {
+.White2 {
 	background-color: #0C1C8C;
 	color: #F69F14;
 	border-radius: 5px;

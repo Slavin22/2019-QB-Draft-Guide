@@ -33,16 +33,13 @@ function init() {
 		fillcolor: "black"
 	}],	{
 	 	xaxis: {
-			title: 'Long Term (LT) Score',
-			family: 'Trebuchet MS',
+			title: 'Long Term (LT) Score'
 		},
 		yaxis: {
-			title: 'Rookie Readiness (RR) Score',
-			family: 'Trebuchet MS',
+			title: 'Rookie Readiness (RR) Score'
 		},
 		title:'All QBs drafted from 2004-2018, plus 30 QBs from 2019 class<br>(Hover for QB prospect info)<br>(QBs grouped together can be considered close comps)',
 		hovermode: 'closest',
-		family: 'Trebuchet MS',
 		
 		// hoverdistance: -1
 

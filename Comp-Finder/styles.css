@@ -1,0 +1,1176 @@
+.jumbotron-center {
+	text-align: center;
+}
+
+#bio {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#links {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#bottomleft {
+	border-radius: 0px 0px 0px 5px;
+}
+
+#bottomright {
+	border-radius: 0px 0px 5px 0px;
+}
+
+#bio td, #bio th {
+	width: 16.66666666%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#links td, #links th {
+	width: 16.66666666%;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#bio tr:nth-child(even){
+	background-color: #f0f0f0;
+}
+
+#bio th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+#links th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+#jumbo {
+	background-color: #555555;
+	color: #f0f0f0;
+	border-radius: 5px;
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+#jumbo2 {
+	padding-top: 0px !important;
+}
+
+.space {
+	padding-bottom: 40px;
+}
+
+.img_space {
+	padding-bottom: 20px;
+}
+
+.Home {
+	background-color: #555555;
+	color: #f0f0f0;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#bio td {
+	color: #555555;
+}
+
+.take {
+	color: #555555;
+	background-color: #f0f0f0;
+}
+
+.spots {
+	color: #555555;
+	background-color: #f0f0f0;
+	text-align: center;
+}
+
+.table_row td {
+	color: #555555 !important;
+	background-color: #f0f0f0 !important;
+	font-size: 16px;
+}
+
+a {
+	color: #555555;
+	text-decoration: none;
+}
+
+a:visited {
+	color:#555555;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#30a2da;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+#jumbo a {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+#jumbo a:visited {
+	color:#f0f0f0;
+	text-decoration:none;
+}
+
+#jumbo a:hover {
+	color:#30a2da;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+.panel a {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+.panel a:visited {
+	color:#f0f0f0;
+	text-decoration:none;
+}
+
+.panel a:hover {
+	color:#30a2da;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+.panel p a {
+	color: #555555;
+	text-decoration: none;
+}
+
+.panel p a:visited {
+	color:#555555;
+	text-decoration:none;
+}
+
+.panel p a:hover {
+	color:#30a2da;
+	cursor:pointer;
+	text-decoration:none;
+}
+
+.reference a {
+	color: #555555 !important;
+}
+
+.reference a:visited {
+	color: #555555 !important;
+}
+
+.reference a:hover {
+	color: #30a2da !important;
+}
+
+.table_row {
+	border-top: 2px solid #555555;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333333;
+}
+
+.nav li {
+	float: left;
+}
+
+.nav li a {
+	display: block;
+	color: #f0f0f0;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.nav li a:hover {
+	background-color: #111111;
+	color:#30a2da;
+}
+
+.active {
+	background-color: #f0f0f0 !important;
+	color: #333333 !important;
+}
+
+.Darnold {
+	background-color: #990000;
+	color: #ffc72c;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Mayfield {
+	background-color: #841617;
+	color: #fdf9D8;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Jackson {
+	background-color: #ad0000;
+	color: #f0f0f0;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Rosen {
+	background-color: #2d68c4;
+	color: #f2a900;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Allen1 {
+	background-color: #ffc425;
+	color: #492f24;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Rudolph {
+	background-color: #ff7300;
+	color: #0f0f0f;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Lauletta {
+	background-color: #000066;
+	color: #f0f0f0;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Woodside {
+	background-color: #15397f;
+	color: #ffda00;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.White {
+	background-color: #c4023c;
+	color: #0f0f0f;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Ferguson {
+	background-color: #0c1c8c;
+	color: #f69f14;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Lee {
+	background-color: #c8102e;
+	color: #f0f0f0;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Falk {
+	background-color: #981e32;
+	color: #f0f0f0;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Litton {
+	background-color: #007631;
+	color: #f0f0f0;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Benkert {
+	background-color: #232d4b;
+	color: #f84c1a;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Barrett {
+	background-color: #bb0000;
+	color: #f0f0f0;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Shimonek {
+	background-color: #0f0f0f;
+	color: #cc0000;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Flowers {
+	background-color: #005941;
+	color: #cdb77c;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Etling {
+	background-color: #461d7c;
+	color: #fdd023;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Wolford {
+	background-color: #a67f31;
+	color: #0f0f0f;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Stevens {
+	background-color: #115135;
+	color: #b5985a;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Briscoe {
+	background-color: #004990;
+	color: #f78e1e;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Allen2 {
+	background-color: #cd2027;
+	color: #f0f0f0;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Allen3 {
+	background-color: #9d2235;
+	color: #f0f0f0;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Sturm {
+	background-color: #002a56;
+	color: #f47321;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Silvers {
+	background-color: #9e0531;
+	color: #f0f0f0;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.McGough {
+	background-color: #002d62;
+	color: #c5960b;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Hill {
+	background-color: #4d1979;
+	color: #f0f0f0;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Lagow {
+	background-color: #990000;
+	color: #eeedeb;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Solomon {
+	background-color: #003015;
+	color: #fecb00;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Linehan {
+	background-color: #b18e5f;
+	color: #0f0f0f;
+	border-radius: 5px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+
+.Herbert {
+	background-color: #154733;
+	color: #FEE123;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Haskins {
+	background-color: #BB0000;
+	color: #F0F0F0;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Grier {
+	background-color: #002855;
+	color: #EAAA00;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Tagovailoa {
+	background-color: #9E1B32;
+	color: #F0F0F0;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Fromm {
+	background-color: #0F0F0F;
+	color: #BA0C2F;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Murray {
+	background-color: #841617;
+	color: #FDF9D8;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Eason {
+	background-color: #4B2E83;
+	color: #B7A57A;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Lock {
+	background-color: #0F0F0F;
+	color: #F1B82D;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Finley {
+	background-color: #CC0000;
+	color: #F0F0F0;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Montez {
+	background-color: #0F0F0F;
+	color: #CFB87C;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Thorson {
+	background-color: #4E2A84;
+	color: #F0F0F0;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Stanley {
+	background-color: #FFCD00;
+	color: #0F0F0F;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Franks {
+	background-color: #0021A5;
+	color: #FA4616;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Rypien {
+	background-color: #0033A0;
+	color: #D64309;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Stidham {
+	background-color: #0C2340;
+	color: #E87722;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.McDonald {
+	background-color: #024731;
+	color: #C8C8C8;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Fitzgerald {
+	background-color: #660000;
+	color: #F0F0F0;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Jackson1 {
+	background-color: #630031;
+	color: #CF4420;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Taamu {
+	background-color: #14213D;
+	color: #CE1126;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Patterson {
+	background-color: #00274C;
+	color: #FFCB05;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Ehlinger {
+	background-color: #BF5700;
+	color: #F0F0F0;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Dungey {
+	background-color: #D44500;
+	color: #F0F0F0;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Ramsey {
+	background-color: #990000;
+	color: #EEEDEB;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Costello {
+	background-color: #8C1515;
+	color: #F0F0F0;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Jones {
+	background-color: #0736A4;
+	color: #F0F0F0;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Browning {
+	background-color: #4B2E83;
+	color: #B7A57A;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Love {
+	background-color: #0F2439;
+	color: #F0F0F0;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Minshew {
+	background-color: #981E32;
+	color: #F0F0F0;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Bryant {
+	background-color: #0F0F0F;
+	color: #F1B82D;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Werts {
+	background-color: #011E41;
+	color: #A3AAAE;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Jackson2 {
+	background-color: #005BBB;
+	color: #F0F0F0;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Lewerke {
+	background-color: #18453B;
+	color: #F0F0F0;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Francois {
+	background-color: #782F40;
+	color: #CEB888;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.McSorley {
+	background-color: #093162;
+	color: #F0F0F0;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Hurts {
+	background-color: #841617;
+	color: #FDF9D8;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.King {
+	background-color: #CD2027;
+	color: #F0F0F0;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Rourke {
+	background-color: #00694E;
+	color: #CDA077;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Tate {
+	background-color: #003366;
+	color: #CC0033;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Milton {
+	background-color: #BA9B37;
+	color: #0F0F0F;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.McMaryion {
+	background-color: #002E6D;
+	color: #DB0032;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Stockstill {
+	background-color: #0066CC;
+	color: #F0F0F0;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Hansen {
+	background-color: #0F0F0F;
+	color: #CC092F;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Rosier {
+	background-color: #005030;
+	color: #F47321;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Ford {
+	background-color: #971B2F;
+	color: #F0F0F0;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Shurmur {
+	background-color: #866D4B;
+	color: #0F0F0F;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Mangum {
+	background-color: #002255;
+	color: #C5AF7D;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Kempt {
+	background-color: #C8102E;
+	color: #F1BE48;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Bentley {
+	background-color: #73000A;
+	color: #F0F0F0;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Fine {
+	background-color: #00853E;
+	color: #0F0F0F;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Neal {
+	background-color: #866D4B;
+	color: #0F0F0F;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Lawrence {
+	background-color: #522D80;
+	color: #F56600;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Fields {
+	background-color: #BB0000;
+	color: #F0F0F0;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Stick {
+	background-color: #0A5640;
+	color: #FFC72A;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Dolegala {
+	background-color: #0048E0;
+	color: #F0F0F0;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Mayes {
+	background-color: #542E19;
+	color: #FCD647;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.Purdy {
+	background-color: #C8102E;
+	color: #F1BE48;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.Martell {
+	background-color: #005030;
+	color: #F47321;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.Daniels {
+	background-color: #990000;
+	color: #FFC72C;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.Mond {
+	background-color: #500000;
+	color: #F0F0F0;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.Cornelius {
+	background-color: #0F0F0F;
+	color: #FF7300;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.Blough {
+	background-color: #0F0F0F;
+	color: #CEB888;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.Speight {
+	background-color: #2D68C4;
+	color: #F2A900;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.Buechele {
+	background-color: #BF5700;
+	color: #F0F0F0;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.Barnett {
+	background-color: #005941;
+	color: #CDB77C;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.Wimbush {
+	background-color: #BA9B37;
+	color: #0F0F0F;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	}
+
+.White2 {
+	background-color: #0C1C8C;
+	color: #F69F14;
+	border-radius: 5px;
+	font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	}

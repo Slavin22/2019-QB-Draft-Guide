@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>QB Prospect Comps</title>
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+	
+	<script type="text/javascript">
+
+		function random() {
+			var urls = new Array();
+
+			urls[0] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Dwayne-Haskins";
+			urls[1] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Kyler-Murray";
+			urls[2] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Will-Grier";
+			urls[3] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Drew-Lock";
+			urls[4] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Ryan-Finley";
+			urls[5] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Brent-Stockstill";
+			urls[6] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Clayton-Thorson";
+			urls[7] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Brett-Rypien";
+			urls[8] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Jarrett-Stidham";
+			urls[9] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Nick-Fitzgerald";
+			urls[10] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Jordan-Taamu";
+			urls[11] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Justice-Hansen";
+			urls[12] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Eric-Dungey";
+			urls[13] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Malik-Rosier";
+			urls[14] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Daniel-Jones";
+			urls[15] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Jake-Browning";
+			urls[16] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Gardner-Minshew";
+			urls[17] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Tyree-Jackson";
+			urls[18] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Andrew-Ford";
+			urls[19] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Kyle-Shurmur";
+			urls[20] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Trace-McSorley";
+			urls[21] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Tanner-Mangum";
+			urls[22] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Kyle-Kempt";
+			urls[23] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Easton-Stick";
+			urls[24] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Jacob-Dolegala";
+			urls[25] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Brad-Mayes";
+			urls[26] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Marcus-McMaryion";
+			urls[27] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Taylor-Cornelius";
+			urls[28] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/David-Blough";
+			urls[29] = "https://slavin22.github.io/2019-QB-Draft-Guide/2019-QBs/Wilton-Speight";
+
+			var random = Math.floor(Math.random()*urls.length);
+
+			window.location = urls[random];
+		}
+	</script>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+		<div class="jumbotron jumbotron-fluid jumbotron-center Home" id="jumbo">
+			<div class="container">
+				<h1><a href="https://slavin22.github.io/2019-QB-Draft-Guide/Home">2019 QB Draft Guide</a></h1>
+			</div>
+
+			<ul class="nav">
+				<li><a href="https://slavin22.github.io/2019-QB-Draft-Guide/Home">Home</a></li>
+				<li><a href="https://slavin22.github.io/2019-QB-Draft-Guide/Methodology">Methodology</a></li>
+				<li><a href="https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/All">2018 QBs</a></li>
+				<li><a href="https://slavin22.github.io/2019-QB-Draft-Guide/2020-QBs/All">2020 QBs</a></li>
+				<li><a href="https://slavin22.github.io/2019-QB-Draft-Guide/2021-QBs/All">2021 QBs</a></li>
+				<li><a href="javascript:;" onclick="random();">Random QB</a></li>
+				<li><a class="active" href="https://slavin22.github.io/2019-QB-Draft-Guide/Comp-Finder/2019-Class">Comp Finder</a></li>
+			</ul>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+			    <div id="plot">
+				</div>
+			</div>
+		</div>
+
+		<div class="row space">
+			<div class="panel-group">
+				<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
+					<div class="panel">
+						<div class="col-sm-1"></div>
+
+						<div class="panel-heading Home">Legend</div>
+						
+						<div class="panel-body take">
+							<img src="Legend.png" alt="Legend" height="200">
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-10 col-lg-9 col-md-9 col-sm-8">
+					<div class="panel">
+						<div class="col-sm-1"></div>
+						
+						<div class="panel-heading Home">Score Methodology</div>
+						
+						<div class="panel-body take">
+							<p>- Long Term (LT) score represents my QB model for predicting career NFL efficiency (TANY/A*). LT is based on college TANY/A*, college Rush%, age, and draft postion.<br><br>- Rookie Readiness (RR) score represents my model for predicting efficiency in year one. Being efficient in college, mobile, and older is important to RR.<br><br>- LT is more important in general for evaluating QB prospects, but RR can help add context if you are looking for a QB ready to start now, for your fantasy team or favorite NFL team.<br><br>- Learn more about TANY/A* and my QB prospect models <a href="https://twoqbs.com/tag/tany-a/">over at TwoQBs</a>, or give me a shout on <a href="https://twitter.com/Slavin22">twitter</a> if you have questions, suggestions, or just want to discuss QB prospects.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="panel-group">
+					<div class="panel">
+						<div class="panel-heading Home">Created by <a href="https://twitter.com/Slavin22"><u>Sean Slavin</u></a> of <a href="https://twoqbs.com/"><u>TwoQBs</u></a>, all stats courtesy of <a href="https://www.sports-reference.com/cfb/"><u>Sports Reference</u></a>.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		colorscale: [[0, 'rgb(0,0,0)'], [0.05, 'rgb(128,128,128)'], [0.14, 'rgb(128,128,128)'], [.15, 'rgb(192,0,0)'], [.19, 'rgb(192,0,0)'], [0.5, 'rgb(255,0,0)'], [0.76, 'rgb(255,235,0)'],[0.9, 'rgb(0,128,0)'],[1, 'rgb(0,128,0)']]
+
+
+	<script src="qbData_2019.js" type="text/javascript"></script>
+    <script src="scatter_2019.js" type="text/javascript"></script>
+
+</body>
+</html>

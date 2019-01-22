@@ -4,11 +4,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Daniel Jones</title>
+	<title>QB Prospect Comps</title>
 	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 	<script src="https://d3js.org/d3.v4.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
-
+	
 	<script type="text/javascript">
 
 		function random() {
@@ -56,112 +56,72 @@
 </head>
 <body>
 
-	<div class="jumbotron jumbotron-fluid jumbotron-center Home" id="jumbo">
-		<div class="container">
-			<h1><a href="https://slavin22.github.io/2019-QB-Draft-Guide/Home">2019 QB Draft Guide</a></h1>
+		<div class="jumbotron jumbotron-fluid jumbotron-center Home" id="jumbo">
+			<div class="container">
+				<h1><a href="https://slavin22.github.io/2019-QB-Draft-Guide/Home">2019 QB Draft Guide</a></h1>
+			</div>
+
+			<ul class="nav">
+				<li><a href="https://slavin22.github.io/2019-QB-Draft-Guide/Home">Home</a></li>
+				<li><a href="https://slavin22.github.io/2019-QB-Draft-Guide/Methodology">Methodology</a></li>
+				<li><a href="https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/All">2018 QBs</a></li>
+				<li><a href="https://slavin22.github.io/2019-QB-Draft-Guide/2020-QBs/All">2020 QBs</a></li>
+				<li><a href="https://slavin22.github.io/2019-QB-Draft-Guide/2021-QBs/All">2021 QBs</a></li>
+				<li><a href="javascript:;" onclick="random();">Random QB</a></li>
+				<li><a class="active" href="https://slavin22.github.io/2019-QB-Draft-Guide/Comp-Finder/2020-Class">Comp Finder</a></li>
+			</ul>
 		</div>
 
-		<ul class="nav">
-			<li><a href="https://slavin22.github.io/2019-QB-Draft-Guide/Home">Home</a></li>
-			<li><a href="https://slavin22.github.io/2019-QB-Draft-Guide/Methodology">Methodology</a></li>
-			<li><a href="https://slavin22.github.io/2019-QB-Draft-Guide/2018-QBs/All">2018 QBs</a></li>
-			<li><a href="https://slavin22.github.io/2019-QB-Draft-Guide/2020-QBs/All">2020 QBs</a></li>
-			<li><a href="https://slavin22.github.io/2019-QB-Draft-Guide/2021-QBs/All">2021 QBs</a></li>
-			<li><a href="javascript:;" onclick="random();">Random QB</a></li>
-			<li><a href="https://slavin22.github.io/2019-QB-Draft-Guide/Comp-Finder/2019-Class">Comp Finder</a></li>
-		</ul>
-	</div>
+		<div class="row">
+			<div class="col-md-12">
+			    <div id="plot">
+				</div>
+			</div>
+		</div>
 
-	<div class="container">
-		
 		<div class="row space">
-			<div class="jumbotron jumbotron-fluid jumbotron-center Jones" id="jumbo2">
-				<div class="row">
-					<div class="col-sm-12"><h1>Daniel Jones</h1></div>
-					<div class="col-sm-12"><img src="https://cdn.herosports.com/upload/post/manual/11_18/20/daniel-jones-duke-nfl-draft-1542729987.jpeg" alt="JonesPic" width = "100%"></div>
-
-				</div>
-			</div>
-
-				<table id="bio" class="Jones">
-					<tr>
-						<th>School</th>
-						<th>Rookie Age</th>
-						<th>Height</th>
-						<th>TANY/A*</th>
-						<th>Breakout Age</th>
-						<th>Mobility</th>
-					</tr>
-					
-					<tr>
-						<td id="bottomleft">Duke</td>
-						<td>22.3</td>
-						<td>6'5"</td>
-						<td>5.66 (Poor)</td>
-						<td>No Breakout</td>
-						<td id="bottomright">17.3% (Great)</td>
-					</tr>
-				</table>
-		</div>
-
-
-		<div class="row">
 			<div class="panel-group">
-				<div class="panel">
-					<div class="panel-heading Jones">TANY/A* by Age compared to: All QBs drafted | First Round QBs | Day 2 QBs | Day 3 QBs</div>
-					
-					<div class="panel-body">
-						<div>
-							<div class="col-sm-6"><img src="Images/JonesAll.png" alt="JonesAll" width = "100%" class="img_space"></div>
-							<div class="col-sm-6"><img src="Images/JonesFirst.png" alt="JonesFirst" width = "100%" class="img_space"></div>
+				<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
+					<div class="panel">
+						<div class="col-sm-1"></div>
+
+						<div class="panel-heading Home">Legend</div>
+						
+						<div class="panel-body take">
+							<img src="Legend.png" alt="Legend" height="200">
 						</div>
-							<div class="col-sm-6"><img src="Images/JonesDay2.png" alt="JonesDay2" width = "100%" class="img_space"></div>
-							<div class="col-sm-6"><img src="Images/JonesDay3.png" alt="JonesDay3" width = "100%" class="img_space"></div>
-						<div class="row">
-							
+					</div>
+				</div>
+
+				<div class="col-xl-10 col-lg-9 col-md-9 col-sm-8">
+					<div class="panel">
+						<div class="col-sm-1"></div>
+						
+						<div class="panel-heading Home">Score Methodology</div>
+						
+						<div class="panel-body take">
+							<p>- Long Term (LT) score represents my QB model for predicting career NFL efficiency (TANY/A*). LT is based on college TANY/A*, college Rush%, age, and draft postion.<br><br>- Rookie Readiness (RR) score represents my model for predicting efficiency in year one. Being efficient in college, mobile, and older is important to RR.<br><br>- LT is more important in general for evaluating QB prospects, but RR can help add context if you are looking for a QB ready to start now, for your fantasy team or favorite NFL team.<br><br>- Learn more about TANY/A* and my QB prospect models <a href="https://twoqbs.com/tag/tany-a/">over at TwoQBs</a>, or give me a shout on <a href="https://twitter.com/Slavin22">twitter</a> if you have questions, suggestions, or just want to discuss QB prospects.</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-
-		<div class="row">
-			<div class="panel-group">
-				<div class="panel">
-					<div class="panel-heading Jones">My Take</div>
-					
-					<div class="panel-body take">
-						<p></p>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-
-		<div class="row">
-			<div class="panel-group">
-				<div class="panel">
-					<div class="panel-heading Jones">Likely Landing Spots</div>
-					
-					<div class="panel-body spots">
-						<p></p>
+		<div class="container">
+			<div class="row">
+				<div class="panel-group">
+					<div class="panel">
+						<div class="panel-heading Home">Created by <a href="https://twitter.com/Slavin22"><u>Sean Slavin</u></a> of <a href="https://twoqbs.com/"><u>TwoQBs</u></a>, all stats courtesy of <a href="https://www.sports-reference.com/cfb/"><u>Sports Reference</u></a>.</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-
-		<div class="row">
-			<div class="panel-group">
-				<div class="panel">
-					<div class="panel-heading Home">Created by <a href="https://twitter.com/Slavin22">Sean Slavin</a> of <a href="https://twoqbs.com/">TwoQBs</a>, all stats courtesy of <a href="https://www.sports-reference.com/cfb/">Sports Reference</a>.</div>
-				</div>
-			</div>
-		</div>
+		colorscale: [[0, 'rgb(0,0,0)'], [0.05, 'rgb(128,128,128)'], [0.14, 'rgb(128,128,128)'], [.15, 'rgb(192,0,0)'], [.19, 'rgb(192,0,0)'], [0.5, 'rgb(255,0,0)'], [0.76, 'rgb(255,235,0)'],[0.9, 'rgb(0,128,0)'],[1, 'rgb(0,128,0)']]
 
 
-	</div>
+	<script src="qbData_2020.js" type="text/javascript"></script>
+    <script src="scatter_2020.js" type="text/javascript"></script>
 
 </body>
 </html>
